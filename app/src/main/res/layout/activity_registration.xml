@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Registration"
+    android:background="#9DF7FF">
+    <TextView
+        android:id="@+id/tvToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Yourself"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawablePadding="20dp"
+        />
+
+    <LinearLayout
+        android:layout_below="@+id/tvToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:textSize="13sp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/baseline_person_4_24"
+            android:drawablePadding="5dp"
+            android:hint="Enter your name(min 3 char)"
+            android:padding="9dp"
+            android:autofillHints="true" />
+        <EditText
+            android:id="@+id/etmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:textSize="13sp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:drawablePadding="5dp"
+            android:hint="Email Address"
+            android:padding="9dp"
+            />
+        <EditText
+            android:id="@+id/etmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:textSize="13sp"
+            android:background="@color/white"
+            android:drawableStart="@drawable/baseline_lock_person_24"
+            android:drawablePadding="5dp"
+            android:hint="Mobile Number(10 digit)"
+            android:inputType="textPassword"
+            android:padding="9dp"
+            />
+        <EditText
+            android:id="@+id/etdelivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="13sp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:drawableStart="@drawable/baseline_location_on_24"
+            android:drawablePadding="5dp"
+            android:hint="Address"
+            android:inputType="phone"
+            android:padding="9dp"
+            />
+        <EditText
+            android:id="@+id/etchosepassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="13sp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:drawableStart="@drawable/baseline_lock_person_24"
+            android:drawablePadding="5dp"
+            android:hint="Choose a Password(Min 4 Char)"
+            android:padding="9dp"
+            />
+        <EditText
+            android:id="@+id/etcnfrmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="13sp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:drawableStart="@drawable/baseline_lock_person_24"
+            android:drawablePadding="5dp"
+            android:hint="Confirm Password"
+            android:padding="9dp"
+            />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#465BD1"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

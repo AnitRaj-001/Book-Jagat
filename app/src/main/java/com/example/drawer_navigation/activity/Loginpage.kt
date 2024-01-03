@@ -1,0 +1,12 @@
+package com.example.drawer_navigation.activity
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.example.drawer_navigation.R
+
+class Loginpage : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_loginpage)
+    }
+}

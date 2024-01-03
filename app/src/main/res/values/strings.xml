@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Book Jagat</string>
+    <string name="todo">TODO</string>
+    <string name="OpenDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_to_favourites">Add to Favourites</string>
+    <string name="blank_fragment">blank fragment</string>
+    <string name="about_my_book">About my Book</string>
+    <string name="sorting">Sort</string>
+    <string name="About_App">
+        Welcome to our online book haven, where the magic of literature meets the convenience of technology. \n
+       \n Book Jagat is not just an ordinary book-selling app, it is your gateway to a world of endless stories, knowledge, and entertainment. We believe in the power of words to inspire, educate, and transport you to new realms, and our mission is to make every book you desire just a click away.\n
+       \n Discover a curated collection of literary treasures spanning genres, from timeless classics to the latest bestsellers. Our user-friendly interface ensures a seamless browsing experience, allowing you to explore the vast universe of books effortlessly. Whether you are a seasoned bookworm or a casual reader, Book Jagat has something for everyone. \n
+     \n <b>Key Features:</b> \n
+        \n <b>1. Vast Library:</b> Dive into a diverse collection of books, including fiction, non-fiction, romance, mystery, science fiction, and more. Our library is constantly updated to bring you the latest releases and literary gems.\n
+        <b>2. Personalized Recommendations:</b> Tailored book suggestions based on your preferences, reading history, and favorite genres. Let us be your literary matchmaker, introducing you to your next great read.\n
+        <b>3. Easy Navigation:</b> Our intuitive design ensures a smooth and enjoyable experience. Browse by genre, author, or explore curated lists to find the perfect book for any mood or occasion.\n
+        <b>4. Seamless Transactions:</b> Enjoy a hassle-free shopping experience with secure and quick checkout. Your digital bookshelf is just a few taps away.\n
+        <b>5. Read Anywhere, Anytime:</b> Access your purchased books on multiple devices, allowing you to pick up where you left off, whether you are at home, on the go, or curled up in your favorite reading nook.\n
+        <b>6. Community and Reviews:</b> Connect with fellow book lovers, share your thoughts on the latest reads, and discover hidden literary gems through user reviews and recommendations. \n
+
+        \n At Book Jagat, we are not just selling books; we are fostering a community of readers who
+        share a passion for storytelling. Join us on this literary journey, and let the adventure begin. Happy reading!\n
+
+      </string>
+    <string name="phone_number">Enter Your Number</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="signup_notice">Sign Up?</string>
+</resources>
